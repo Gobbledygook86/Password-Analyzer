@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main() { 
-    printf("Hello, World!\n");
+#include "password.h"
+int main(void) { 
+    analyzePassword();
     return 0;
 }
